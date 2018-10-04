@@ -17,8 +17,9 @@ Ask the user if they want to enter another animal.
 Do this until the user says "no" or "nO" or "NO"
 ============================================================
 
-#Git commands for pushing this repository are below 
+# Git commands for pushing this repository are below 
 
+```
 Microsoft Windows [Version 10.0.15063]
 C:\Users\GBTC440001ur\IdeaProjects\ClassSample4Oct>dir
  Volume in drive C has no label.
@@ -59,8 +60,10 @@ Changes to be committed:
         new file:   src/com/company/Main.java
         new file:   src/com/company/readme.md
 
+```
 
 C:\Users\GBTC440001ur\IdeaProjects\ClassSample4Oct>git commit -m "From class exercise on favourite animal"
+```
 [master (root-commit) b0595de] From class exercise on favourite animal
  10 files changed, 349 insertions(+)
  create mode 100644 .idea/description.html
@@ -73,12 +76,13 @@ C:\Users\GBTC440001ur\IdeaProjects\ClassSample4Oct>git commit -m "From class exe
  create mode 100644 out/production/ClassSample4Oct/com/company/readme.md
  create mode 100644 src/com/company/Main.java
  create mode 100644 src/com/company/readme.md
-
+```
 C:\Users\GBTC440001ur\IdeaProjects\ClassSample4Oct>git remote -v
 
 C:\Users\GBTC440001ur\IdeaProjects\ClassSample4Oct>git remote add origin https://github.com/aoa4eva/FavouriteAnimalLoop
 
 C:\Users\GBTC440001ur\IdeaProjects\ClassSample4Oct>git status
+```
 On branch master
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
@@ -101,6 +105,7 @@ Changes not staged for commit:
         modified:   .idea/workspace.xml
 
 no changes added to commit (use "git add" and/or "git commit -a")
+```
 
 C:\Users\GBTC440001ur\IdeaProjects\ClassSample4Oct>git rm .idea/workspace.xml
 error: the following file has local modifications:
@@ -111,21 +116,24 @@ C:\Users\GBTC440001ur\IdeaProjects\ClassSample4Oct>git rm .idea/workspace.xml -f
 rm '.idea/workspace.xml'
 
 C:\Users\GBTC440001ur\IdeaProjects\ClassSample4Oct>git status
+```
 On branch master
 Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
 
         deleted:    .idea/workspace.xml
 
-
+```
 C:\Users\GBTC440001ur\IdeaProjects\ClassSample4Oct>git add .
 
 C:\Users\GBTC440001ur\IdeaProjects\ClassSample4Oct>git commit -m "Removed worskpace.xml"
+```
 [master 30bc984] Removed worskpace.xml
  1 file changed, 244 deletions(-)
  delete mode 100644 .idea/workspace.xml
-
+```
 C:\Users\GBTC440001ur\IdeaProjects\ClassSample4Oct>git push -u origin master
+```
 fatal: HttpRequestException encountered.
    An error occurred while sending the request.
 Username for 'https://github.com': aoa4eva
@@ -143,16 +151,18 @@ remote:
 To https://github.com/aoa4eva/FavouriteAnimalLoop
  * [new branch]      master -> master
 Branch master set up to track remote branch master from origin.
-
+```
 C:\Users\GBTC440001ur\IdeaProjects\ClassSample4Oct>git remote add anotherrepo https://github.com/JBCSep2018/FavouriteAnimalLoop.git
 
 C:\Users\GBTC440001ur\IdeaProjects\ClassSample4Oct>git remote -v
+```
 anotherrepo     https://github.com/JBCSep2018/FavouriteAnimalLoop.git (fetch)
 anotherrepo     https://github.com/JBCSep2018/FavouriteAnimalLoop.git (push)
 origin  https://github.com/aoa4eva/FavouriteAnimalLoop (fetch)
 origin  https://github.com/aoa4eva/FavouriteAnimalLoop (push)
-
+```
 C:\Users\GBTC440001ur\IdeaProjects\ClassSample4Oct>git status
+```
 On branch master
 Your branch is up-to-date with 'origin/master'.
 
@@ -163,18 +173,24 @@ Untracked files:
         .idea/workspace.xml
 
 nothing added to commit but untracked files present (use "git add" to track)
+```
 
 C:\Users\GBTC440001ur\IdeaProjects\ClassSample4Oct>git add .
+```
 warning: LF will be replaced by CRLF in .idea/vcs.xml.
 The file will have its original line endings in your working directory.
+```
+
 
 C:\Users\GBTC440001ur\IdeaProjects\ClassSample4Oct>git commit -m "Added a remote"
+```
 [master a7c2402] Added a remote
  2 files changed, 261 insertions(+)
  create mode 100644 .idea/vcs.xml
  create mode 100644 .idea/workspace.xml
-
+```
 C:\Users\GBTC440001ur\IdeaProjects\ClassSample4Oct>git push -ur anotherrepo master
+```
 error: unknown switch `r'
 usage: git push [<options>] [<repository> [<refspec>...]]
 
@@ -209,9 +225,11 @@ usage: git push [<options>] [<repository> [<refspec>...]]
                           option to transmit
     -4, --ipv4            use IPv4 addresses only
     -6, --ipv6            use IPv6 addresses only
-
+```
 
 C:\Users\GBTC440001ur\IdeaProjects\ClassSample4Oct>git push -u anotherrepo master
+
+```
 fatal: HttpRequestException encountered.
    An error occurred while sending the request.
 Username for 'https://github.com': aoa4eva
@@ -229,5 +247,6 @@ remote:
 To https://github.com/JBCSep2018/FavouriteAnimalLoop.git
  * [new branch]      master -> master
 Branch master set up to track remote branch master from anotherrepo.
+```
 
 C:\Users\GBTC440001ur\IdeaProjects\ClassSample4Oct>
