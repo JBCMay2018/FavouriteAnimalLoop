@@ -20,11 +20,8 @@ Do this until the user says "no" or "nO" or "NO"
 # Git commands for pushing this repository are below 
 
 ```
-Microsoft Windows [Version 10.0.15063]
 C:\Users\GBTC440001ur\IdeaProjects\ClassSample4Oct>dir
  Volume in drive C has no label.
- Volume Serial Number is B2FB-F440
-
  Directory of C:\Users\GBTC440001ur\IdeaProjects\ClassSample4Oct
 
 10/04/2018  03:40 PM    <DIR>          .
